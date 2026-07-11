@@ -14,14 +14,14 @@
     <!--ENCABEZADO Y NAVEGACIÓN-->
     <header>
       <nav>
-        <a href="#Inicio" class="logo">Joan Jiménez</a>
+        <a href="#inicio" class="logo">Joan Jiménez</a>
         <ul>
-          <li><a href="#Inicio">Inicio</a></li>
-          <li><a href="Sobre-mi">Sobre mí</a></li>
-          <li><a href="#Habilidades">Habilidades</a></li>
-          <li><a href="#Proyectos">Proyectos</a></li>
-          <li><a href="#Certificaciones">Certificaciones</a></li>
-          <li><a href="Contacto">Contacto</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyecto">Proyectos</a></li>
+          <li><a href="#certificaciones">Certificaciones</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
         <a href="assets/cv/CV-Joan-Jimenez-ATS.pdf" download>Descargar CV</a>
       </nav>
@@ -29,10 +29,10 @@
 
     <main>
       <!--SECCIÓN INICIO / HERO-->
-      <section>
+      <section  id="inicio">
         <div class="monograma">JJ</div>
         <h1>Joan Steven Jiménez Puerta</h1>
-        <p class="titular">Desarrollo Web · Análisis Datos · Soporte TI</p>
+        <p class="titular">Desarrollo Web · Análisis de Datos · Soporte TI</p>
         <p>
           Nueve años en el sector comercial y financiero me dieron una base
           sólida en servicio, procesos y trabajo por objetivos. Hoy sumo a eso
@@ -42,8 +42,8 @@
         </p>
 
         <div class="botones">
-            <a href="#proyectos">Ver proyectos</a>
-            <a href="assets/cv/CV-Joan-Jimenez-ATS.pdf" download">Descargar CV</a>
+            <a href="#proyecto">Ver proyectos</a>
+            <a href="assets/cv/CV-Joan-Jimenez-ATS.pdf" download>Descargar CV</a>
             <a href="#contacto">Contacto</a>
         </div>
       </section>
@@ -80,7 +80,7 @@
             <ul>
                 <li>HTML5</li>
                 <li>CSS</li>
-                <li>Javascript</li>
+                <li>JavaScript</li>
                 <li>GitHub</li>
             </ul>
 
@@ -100,8 +100,6 @@
             <h3>Soporte TI</h3>
             <ul>
                 <li>Active Directory</li>
-                <li>Microsoft Azure</li>
-                <li>Microsft Entra ID</li>
                 <li>Microsoft 365</li>
                 <li>Telefonía VoIP y Contact Center (3CX, MicroSIP, Wolkvox)</li>
                 <li>Microsoft Azure (gestión de accesos y permisos)</li>
@@ -111,21 +109,21 @@
       </section>
 
       <!--SECCIÓN DE PROYECTOS-->
-      <section>
+      <section id="proyecto">
         <h2>Proyectos</h2>
-        <article class="proyectos">
+        <article class="proyecto">
             <h3>To-Do List App</h3>
             <p>Aplicación de tareas con dashboard y persistencia en localStorage.</p>
 
             <ul>
               <li>HTML5</li>
               <li>CSS</li>
-              <li>Javascript</li>
+              <li>JavaScript</li>
             </ul>
             <a href="https://github.com/joanjz10/To-Do-List">Ver repositorio</a>
         </article>
-        <article class="proyectos">
-          <h3>Análisis Historico de Mundiales FIFA</h3>
+        <article class="proyecto">
+          <h3>Análisis Histórico de Mundiales FIFA</h3>
           <p>Datos históricos de la Copa del Mundo</p>
 
           <ul>
@@ -134,7 +132,7 @@
           </ul>
           <a href="https://github.com/joanjz10/analisis-mundiales-fifa">Ver repositorio</a>
         </article>
-        <article class="proyectos">
+        <article class="proyecto">
           <h3>Análisis de ventas de videojuegos</h3>
           <p>EDA completo sobre ventas globales. Tendencias por plataforma, género y región.</p>
 
@@ -143,9 +141,37 @@
             <li>Pandas</li>
           </ul>
            <a href="https://github.com/joanjz10/analisis-ventas-videojuegos">Ver repositorio</a>
-
         </article>
       </section>
+      <!--SECCIÓN DE CERTIFICACIONES-->
+      <section id="certificaciones">
+        <h2>Certificaciones</h2>
+        <article class="certificacion">
+          <h3>Google Data Analytics</h3>
+          <p>Google · Coursera</p>
+        </article>
+        <article class="certificacion">
+          <h3>Python for Everybody</h3>
+          <p>Universidad de Michigan · Coursera</p>
+        </article>
+        <article class="certificacion">
+    <h3>Meta Front-End Development</h3>
+    <p>Meta · Coursera</p>
+  </article>
+      </section>
+      <!--SECCIÓN DE CONTACTO-->
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <ul>
+          <li>Email: <a href="mailto:joanjz1995@gmail.com">joanjz1995@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/joanjimenezdev">linkedin.com/in/joanjimenezdev</a></li>
+          <li>GitHub: <a href="https://github.com/joanjz10">github.com/joanjz10</a></li>
+        </ul>
+      </section>
     </main>
+    <footer>
+      <p>© 2026 Joan Jiménez — hecho con HTML, CSS y JavaScript</p>
+    </footer>
+  <script src="js/script.js"></script>
   </body>
 </html>
