@@ -7,6 +7,8 @@ para demostrar dominio de las bases del desarrollo web.
 
 **Enfoque profesional:** Soporte IT · Análisis de Datos · Desarrollo Web Junior
 
+
+🔗 **Ver el sitio publicado:** [joanjz10.github.io/Portafolio_Joan](https://joanjz10.github.io/Portafolio_Joan/)
 ---
 
 ## Tabla de contenidos
@@ -96,15 +98,15 @@ El sitio se recorre de arriba hacia abajo en este orden:
 El proyecto se construye por fases, validando cada una antes de pasar a la
 siguiente. Este es el proceso de desarrollo de principio a fin:
 
-| Fase       | Objetivo                                                                    |
-| ---------- | ----------------------------------------------------------------------------| 
-| **FASE 0** | Definir estructura y contenido: secciones, qué muestra cada una, narrativa  |
-| **FASE 1** | Estructura HTML semántica (el "esqueleto" de todas las secciones)           |
-| **FASE 2** | Estilos CSS base: variables, tipografía, colores, tema oscuro               |  
-| **FASE 3** | Layout y diseño responsive (escritorio, tablet, móvil)                      |  
-| **FASE 4** | Interactividad con JavaScript (menú, scroll suave, efectos al hacer scroll) |
-| **FASE 5** | Contenido real, enlaces a repos y CV descargable                            | 
-| **FASE 6** | README, ajustes finales y despliegue en GitHub Pages                        |             
+| Fase       | Objetivo                                                                    |Estado |
+| ---------- | ----------------------------------------------------------------------------|--------
+| **FASE 0** | Definir estructura y contenido: secciones, qué muestra cada una, narrativa  |✅ 
+| **FASE 1** | Estructura HTML semántica (el "esqueleto" de todas las secciones)           |✅
+| **FASE 2** | Estilos CSS base: variables, tipografía, colores, tema oscuro               |✅
+| **FASE 3** | Layout y diseño responsive (escritorio, tablet, móvil)                      |✅ 
+| **FASE 4** | Interactividad con JavaScript  ("menú hamburguesa y scroll suave")          |✅
+| **FASE 5** | Contenido real, enlaces a repos y CV descargable                            |✅ 
+| **FASE 6** | README, ajustes finales y despliegue en GitHub Pages                        |✅             
 --------------------------------------------------------------------------------------------
 Cada fase se cierra con uno o varios commits descriptivos en Git antes de
 avanzar a la siguiente.
@@ -155,10 +157,12 @@ Esa URL se agrega al CV y al perfil de LinkedIn.
 
 ## Estado del proyecto
 
-**En desarrollo** — actualmente en la fase de documentación y planeación.
-El diseño ya está definido mediante mockup; el siguiente paso es construir la
-estructura HTML.
+✅ **Publicado** — el portafolio está terminado y desplegado en GitHub Pages.
+Todas las fases del flujo de trabajo fueron completadas: estructura HTML
+semántica, estilos CSS con tema oscuro, diseño responsive, menú interactivo con
+JavaScript, contenido real y despliegue.
 
+🔗 [joanjz10.github.io/Portafolio_Joan](https://joanjz10.github.io/Portafolio_Joan/)
 ---
 
 ## Contacto
